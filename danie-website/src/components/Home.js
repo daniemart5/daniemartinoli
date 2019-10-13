@@ -25,8 +25,12 @@ class Home extends Component {
 
                 Thanks for checking out my page! 
 
-                Sincerely,
-                Danie Martinoli 
+                Feel free to check out my social media!
+                <br/>
+                |<a href="https://github.com/daniemart5/">Github</a>
+                |<a href="https://medium.com/@daniemart5"> Blogs</a>
+                |<a href="https://www.linkedin.com/in/daniemartinoli/">LinkedIn</a>|
+
                 </p>
             </div>
         </div>
