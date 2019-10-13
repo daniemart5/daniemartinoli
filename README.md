@@ -8,3 +8,6 @@ About me section
 Experience
 Projects
 Blogs
+
+Credits:
+Pac-man Ghost CSS animation - A PEN BY Smit Salcedo Beltran
