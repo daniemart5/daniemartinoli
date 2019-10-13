@@ -4,11 +4,10 @@ import {withRouter} from "react-router-dom"
 class Projects extends Component {
     render() {
         return (
-            <div >
-    
-                <div>
+            <div className="content">
+                <div className="projectsbox">
                 <h2>Pickly App</h2>
-                <iframe className="projects" alt='Danie' src="https://giphy.com/embed/fwR97SaiuZ4W8hTe2P" width="400" height="300" border-radius="50px"></iframe><p><a href="https://github.com/daniemart5/picklyapp">Github</a></p>
+                <iframe className="projects" alt='Danie' src="https://giphy.com/embed/fwR97SaiuZ4W8hTe2P" width="400" height="300"></iframe>
                 </div>
 
                 <div className="description">
@@ -21,11 +20,12 @@ class Projects extends Component {
                     <li>CSS/HTML</li>
                     <li>Adobe XD (for wireframing)</li>
                 </ul>
+                <p><a href="https://github.com/daniemart5/picklyapp">Github</a></p>
                 </div>
 
-                <div>
+                <div className="projectsbox">
                 <h2>Doggo Adopto</h2>
-                <iframe className="projects" alt='Danie' src="https://giphy.com/embed/U6RDsqQidvgwB4tSsV" width="400" height="300" border-radius="50px"></iframe><p><a href="https://github.com/marth00165/mod4-project">Github</a></p>
+                <iframe className="projects" alt='Danie' src="https://giphy.com/embed/U6RDsqQidvgwB4tSsV" width="400" height="300"></iframe>
                 </div>
 
                 <div className="description">
@@ -38,11 +38,12 @@ class Projects extends Component {
                     <li>CSS/HTML</li>
                     <li>Dog CEO API</li>
                 </ul>
+                <p><a href="https://github.com/marth00165/mod4-project">Github</a></p>
                 </div>
 
-                <div>
+                <div className="projectsbox">
                 <h2>Dive Slate</h2>
-                <iframe className="projects" alt='Danie' src="https://giphy.com/embed/d5StkXHHOcETjGa4lj" width="400" height="300" border-radius="50px"></iframe><p><a href="https://github.com/kargo-k/dive-slate-app">Github</a></p>
+                <iframe className="projects" alt='Danie' src="https://giphy.com/embed/d5StkXHHOcETjGa4lj" width="400" height="300"></iframe>
                 </div>
                 
                 <div className="description">
@@ -53,6 +54,7 @@ class Projects extends Component {
                     <li>CSS/HTML</li>
                     <li>Auth</li>
                 </ul>
+                <p><a href="https://github.com/kargo-k/dive-slate-app">Github</a></p>
                 </div>
 
             </div>

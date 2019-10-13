@@ -1,3 +1,7 @@
+html {
+  background-color: bisque;
+}
+
 .content {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -52,18 +56,22 @@ padding: 15pt;
   border: #818bd6 20pt solid;
   border-radius: 50px;
   margin: 10pt;
+  background: #818bd6;
 
 }
 
 .projects {
-  background: #818bd6;
-  grid-column: 1/6;
   border: #818bd6 20pt solid;
   border-radius: 50px;
 }
 
+.projectsbox {
+  grid-column: 1/6;
+  margin: 10pt;
+}
+
 .description {
-  grid-column: 6/13;
+  grid-column: 7/13;
   background: #818bd6;
   border-radius: 50px;
   margin: 10pt;
@@ -80,4 +88,5 @@ padding: 15pt;
   border: #818bd6 20pt solid;
   border-radius: 50px;
 }
+
 
