@@ -10,6 +10,19 @@ class Travels extends Component {
 
                 <h3>Show gallery of pictures here</h3>
                 <h3>Places I have been</h3>
+
+                <h4>US Cities</h4>
+                <ul>
+                    <li>Portland, Oregon</li>
+                    <li>Boise, Idaho</li>
+                    <li>San Diego, California</li>
+                    <li>Colorado, Denver</li>
+                    <li>Boston, Massachusetts</li>
+                    <li>Austin, Texas</li>
+                    <li>Kansas City, Missouri</li>
+                </ul>
+
+                <h4>International Cities</h4>
                 <ul>
                     <li>Brussels, Belguim</li>
                     <li>Ghent and Bruges, Belguim</li>
