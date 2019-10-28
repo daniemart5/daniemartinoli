@@ -88,6 +88,14 @@ background: #1B998B;
   border-radius: 50px;
 }
 
+.travel{
+  grid-column: 2/12;
+  border: #1B998B 20pt solid;
+  border-radius: 50px;
+  margin: 10pt;
+  background: #1B998B;
+  }
+
 /* |------------------ PACMAN GHOST STARTS-----------------| */
 /* A PEN BY Smit Salcedo Beltran */
 /*--------------------------------------------------

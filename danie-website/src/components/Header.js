@@ -10,6 +10,7 @@ function Header() {
           | <Link to='/experience'>Experience </Link>
           | <Link to='/projects'>Projects </Link>
           | <Link to='/blogs'>Blogs </Link>
+          | <Link to='/travels'>Travels </Link>
       </div>   
     )
 }

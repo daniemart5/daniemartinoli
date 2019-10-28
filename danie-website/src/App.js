@@ -5,6 +5,7 @@ import Home from './components/Home.js';
 import Experience from './components/Experience.js';
 import Projects from './components/Projects.js';
 import Blogs from './components/Blogs.js';
+import Travels from './components/Travels.js';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ class App extends React.Component {
           <Route path = "/experience" component = {Experience}/>
           <Route path = "/projects" component = {Projects}/>
           <Route path = "/blogs" component = {Blogs}/>
+          <Route path = "/travels" component = {Travels}/>
         </div>
      
       </BrowserRouter>

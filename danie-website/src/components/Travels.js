@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 class Travels extends Component {
     render() {
         return (
-            <div>
+        <div className="content">
+            <div className='travel'>
                 <h1>My Travels 🌎</h1>
                 <p>Outside of my professional life I enjoy traveling the world with my hubby nick!</p>
                 <p>Here are some of my favorite pictures:</p>
@@ -32,6 +33,8 @@ class Travels extends Component {
                     <li>Cancun, Mexico</li>
                 </ul>
             </div>
+
+        </div>
         )
     }
 }
